@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aravindh Babu - Interactive Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor-follower"></div>
+    <div class="loader"></div>
+
+    <header class="navbar">
+        <nav class="navbar-container container">
+            <a href="#hero" class="home-link">Aravindh Babu</a>
+            <ul class="menu-items">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-container container">
+            <h1 class="hero-title">Aravindh Babu</h1>
+            <p class="tagline">Data Analyst | Telling Stories Through Dashboards!!✨</p>
+            <p class="mission">I specialize in creating powerful dashboards and uncovering hidden trends to drive business decisions.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="Aravindh_Babu_Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <img src="/Asset/images/profile.jpeg" alt="Aravindh Babu" class="profile-pic anim-pic">
+                    <div class="about-text anim-text">
+                        <p>
+                            Hello! I'm a passionate Data Analyst with a strong foundation in statistical analysis, data visualization, and machine learning. My goal is to leverage data to solve complex problems and provide actionable insights.
+                        </p>
+                        <p>
+                            With experience using Python, SQL, and industry-leading visualization tools like Power BI and Tableau, I enjoy transforming raw data into compelling stories. I'm always eager to learn new technologies and tackle challenging datasets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="stats" class="stats">
+            <div class="container">
+                <h2 class="section-title">My Impact</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="5">0</span>+
+                        <p class="stat-label">Completed Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="10">0</span>+
+                        <p class="stat-label">Dashboards Built</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="20">0</span>+
+                        <p class="stat-label">Dataset Analyzed</p>
+                    </div>
+                     <div class="stat-item">
+                        <span class="stat-number" data-target="3">0</span>+
+                        <p class="stat-label">Core Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">My Toolkit</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming & Databases</h3>
+                        <ul><li>Python (Pandas, NumPy)</li><li>SQL</li><li>Automation</li></ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-chart-bar"></i> Data Visualization</h3>
+                        <ul><li>Power BI</li><li>Tableau</li><li>Excel (Advanced)</li><li>Matplotlib & Seaborn</li></ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Other Tools</h3>
+                        <ul><li>Git & GitHub</li><li>Jupyter Notebook</li><li>n8n</li></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Project Dashboards</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/Asset/images/Home.png" alt="Project 1 Thumbnail">
+                            <div class="slide-content">
+                                <h3>Indian General Election Analysis 2024</h3>
+                                <p>Insight of the 2024 election results, visualizing voter turnout and party performance using Python and Power BI.</p>
+                                <div class="project-buttons">
+                                    <a href="https://github.com/AravindhBabu123/Indian_General_Election_Result_analysis_2024" target="_blank" class="btn-project">View Project <i class="fas fa-arrow-right"></i></a>
+                                    <button class="btn-ai">✨ Summarize with AI</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/Asset/images/Blinkit_Dashboard1.png" alt="Project 2 Thumbnail">
+                            <div class="slide-content">
+                                <h3>BlinkIt Sales Analysis</h3>
+                                <p> Insights on sales trends, customer behavior, and product performance, and present them in an interactive dashboard.</p>
+                                <div class="project-buttons">
+                                    <a href="https://github.com/AravindhBabu123/BlinkIt_data_analysis" target="_blank" class="btn-project">View Dashboard <i class="fas fa-arrow-right"></i></a>
+                                    <button class="btn-ai">✨ Summarize with AI</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/Asset/images/Overview analysis.png" alt="Project 3 Thumbnail">
+                            <div class="slide-content">
+                                <h3>2024-Election analysis</h3>
+                                <p>To understand the political landscape and performance of NDA, I.N.D.I.A., and other parties.</p>
+                                <div class="project-buttons">
+                                    <a href="https://github.com/AravindhBabu123/Indian_General_Election_Result_analysis_2024/blob/main/Indian_General_Election_Analysis_2024/Images/Overview_analysis.png" target="_blank" class="btn-project">View on GitHub <i class="fas fa-arrow-right"></i></a>
+                                    <button class="btn-ai">✨ Summarize with AI</button>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="swiper-slide">
+                            <img src="/Asset/images/State Demographic Analysis1.png" alt="Project 4 Thumbnail">
+                            <div class="slide-content">
+                                <h3>State Demographic Analysiss</h3>
+                                <p> State-wise seat distribution, majority alliance, and winning candidates using PowerBi</p>
+                                <div class="project-buttons">
+                                    <a href="https://github.com/AravindhBabu123/Indian_General_Election_Result_analysis_2024/blob/main/Indian_General_Election_Analysis_2024/Images/State_Demographic_Analysis1.png" target="_blank" class="btn-project">View Insights <i class="fas fa-arrow-right"></i></a>
+                                    <button class="btn-ai">✨ Summarize with AI</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-item">
+                    <h3>Data Analyst Intern</h3>
+                    <p class="experience-details">Hanon System | September 2023</p>
+                    <p>Assisted the data science team with data cleaning, exploratory data analysis, and creating weekly performance reports using SQL and Excel.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2 class="section-title">Certificates</h2>
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <img src="/Asset/Certificate/Google certificate-1.png" alt="Blog Post 1">
+                        <div class="blog-card-content">
+                            <h3>Google Data Analyst Certificate</h3>
+                            <p>Successfully completed the Google Data Analytics Professional Certificate, gaining a strong foundation in data analysis.
+                               Learned techniques for data cleaning, preprocessing, and statistical analysis.
+                               Developed hands-on skills in data visualization and deriving insights for effective communication.</p>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/Q35P2KGYPJDD" target="_blank">Certificate <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>      
+                    <div class="blog-card">
+                        <img src="/Asset/Certificate/Google certificate-2.png" alt="Blog Post 2">
+                        <div class="blog-card-content">
+                            <h3>Coursera-Google Data analyst certificate </h3>
+                            <p>Completed the Google Data Analytics Certificate: Ask Questions to Make Data-Driven Decisions.
+                               Gained skills in problem framing, effective questioning, and critical thinking.
+                               Learned to apply structured approaches to derive insights and support data-driven decision making.</p>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/2HPWGRLYQG4A" target="_blank">Certificate <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                     <div class="blog-card">
+                        <img src="/Asset/Certificate/Python_Certificate.png" alt="Blog Post 3">
+                        <div class="blog-card-content">
+                            <h3>Python Certificate </h3>
+                            <p>Completed Basic Python Certification from Eduprep, covering essential programming concepts like variables, loops, and functions.
+                                 Gained hands-on practice through beginner-friendly exercises and small projects. 
+                                Built a strong foundation to move into advanced Python and data analysis.</p>
+                            <a href="https://m.eduprep.co/readerapi/courses/642a6cd0e4b03b0f07e199d7/certificate?mobile=mobile&authToken=9a10e3eed85c83a6520dccfb97d43fea&userId=643e7b24e4b0c05b8638c42b&orgId=62b0e0980cf2aa41107ba318" target="_blank">Certificate <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-message">I'm currently seeking new opportunities and would love to hear from you.<br>Let's create something great together!</p>
+            
+            <form action="https://formspree.io/f/movnyvvp" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aravindh-babu-3a6341295/" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AravindhBabu123" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 Aravindh Babu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="gemini-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>✨ AI Project Summary</h3>
+                <button id="close-modal">&times;</button>
+            </div>
+            <div id="gemini-response">
+                <p>Generating summary...</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
