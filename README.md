@@ -1,64 +1,91 @@
 # Aravindh Babu — Interactive Portfolio
 
-Welcome to my personal portfolio! This site showcases my work as a Data Analyst, my skills, projects, certifications, and contact info.  
+Welcome to the source code for my personal portfolio!  
+This repository hosts my web portfolio showcasing projects, certifications, and my automation work.
+
+---
+
+## Table of Contents
+
+- [About Me](#about-me)  
+- [My Toolkit & Skills](#my-toolkit--skills)  
+- [Highlighted Projects](#highlighted-projects)  
+- [Automation Showcase](#automation-showcase)  
+- [Experience](#experience)  
+- [Certifications](#certifications)  
+- [Contact](#contact)  
 
 ---
 
 ## About Me
 
-Hi there! I’m **Aravindh Babu**, a passionate Data Analyst who loves turning raw data into meaningful insights through dashboards and automation.  
-With experience in Python, SQL, Power BI, Tableau, and tools like n8n, I build solutions that help decision-makers see what matters.  
+Hello! I’m **Aravindh Babu**, a Data Analyst who crafts dashboards, automates workflows, and derives insights from data to drive decisions.  
+I have experience in Python, SQL, Power BI, Tableau, automation tools (like n8n), and more.  
 
 ---
 
-## Toolkit & Skills
+## My Toolkit & Skills
 
-- **Programming & Databases:** Python (Pandas, NumPy), SQL, Automation  
-- **Data Visualization:** Power BI, Tableau, Excel (Advanced), Matplotlib & Seaborn  
-- **Other Tools & Techniques:** Git & GitHub, Jupyter Notebook, Workflow Automation  
+**Programming & Databases:**  
+Python (Pandas, NumPy), SQL, APIs, Automation  
+
+**Data Visualization:**  
+Power BI, Tableau, Excel (Advanced), Matplotlib & Seaborn  
+
+**Tools & Technologies:**  
+n8n • Docker • Git & GitHub • Workflow Automation  
 
 ---
 
-## Projects
-
-Here are some of the dashboards and analysis projects featured in the portfolio:
+## Highlighted Projects
 
 | Project | Description |
 |---|---|
-| *Indian General Election Analysis 2024* | Insights into voter turnout and party performance using Python + Power BI. |
-| *BlinkIt Sales Analysis* | Analysis of sales trends, customer behavior, and product performance. |
-| *2024 Election Analysis* | Comprehensive look at performance of major political alliances (NDA, INDIA, etc.). |
-| *State Demographic Analysis* | State-wise seat distribution, majority alliance, and winning candidates. |
+| *Indian General Election Analysis 2024* | Visualizing voter turnout and party performance using Python & Power BI. |
+| *BlinkIt Sales Analysis* | Insights on customer behavior, product performance, and sales trends. |
+| *2024 Election Analysis* | Comparative performance of political alliances (NDA, INDIA etc.). |
+| *State Demographic Analysis* | State-wise seat distribution and outcome analysis using dashboard tools. |
 
-> Links to individual project repositories are available in the Projects section of the portfolio.  
+---
+
+## Automation Showcase
+
+The portfolio includes a dedicated **Automation** section that shows the workflow around my Gmail automation project:
+
+- **Before**: A cluttered, disorganized inbox  
+- **Process**: Using n8n to automatically label emails into categories like *Jobs, Internships, News, Banking, Alerts, Others*  
+- **After**: A clean and organized inbox with labels  
+
+This is presented as a slideshow of **three images** to visually depict the transformation.
+
+---
+
+## Experience
+
+- **Data Analyst Intern**, Hanon System — September 2023  
+  Tasks: data cleaning, exploratory data analysis, weekly performance reports using SQL and Excel.
 
 ---
 
 ## Certifications
 
 - Google Data Analytics Professional Certificate  
-- Coursera – Google Data Analyst Certificate  
+- Coursera — Google Data Analyst Certification  
+- Basic Python Certification (Eduprep)  
+- n8n: No Code AI Agent Builder (Simplilearn SkillUp)  
+- Introduction to Generative AI Studio (Google Cloud / Simplilearn)  
 
 ---
 
-##  Automation Feature
+## Contact
 
-One of the key highlights in this portfolio is a **Gmail Automation** project I’ve added under a new **“Automation” section**:
+I’m currently open to new opportunities!  
+If you’d like to collaborate or want to learn more, feel free to reach out.
 
-- Automatically categorizes incoming emails into labels like *Jobs, Internships, News, Banking, Alerts, Others* using n8n workflows.  
-- Hosted via Docker on Render, running 24/7.  
-- Presented in a clean 3-step visual slideshow: *Before (cluttered inbox) → Workflow → After (organized inbox)*.  
-
----
-
-## Getting in Touch
-
-Feel free to connect if you’d like to collaborate, have feedback, or just want to chat about data:
-
-- Email: *[your email]*  
-- LinkedIn: *[your LinkedIn]*  
+- Email: *[aravindhbabu12@gmail.com]
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aravindh-babu-3a6341295)
 - GitHub: [aravindhbabu123](https://github.com/aravindhbabu123)  
 
 ---
 
-© 2025 Aravindh Babu. All rights reserved.  
+&copy; 2025 Aravindh Babu. All rights reserved.
