@@ -391,12 +391,13 @@ section {
 .experience-item h3 { font-size: 1.6rem; }
 .experience-details { color: var(--text-secondary); font-style: italic; margin-bottom: 1rem; }
 
-/* --- BLOG SECTION (CERTIFICATES) --- */
+/* --- BLOG SECTION (Certificates) --- */
 .blog-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid; /* Use Grid for precise column control */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* 3 columns on large screens, adjusting to 1 or 2 on smaller */
     gap: 2rem;
+    justify-items: center; /* Center items within their grid cells */
+    align-items: stretch; /* Make all cards the same height */
 }
 
 .blog-card {
@@ -407,23 +408,38 @@ section {
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    flex-basis: 350px;
-    flex-grow: 1;
-    max-width: 400px;
+    width: 100%; /* Ensure cards take full width of their grid cell */
+    /* Remove flex-basis, flex-grow, max-width here as grid handles sizing */
 }
 
 .blog-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+
 .blog-card img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    /* height: 200px; Remove fixed height */
+    max-height: 220px; /* Set a max-height to avoid excessive image size */
+    object-fit: contain; /* Use 'contain' to ensure full image is visible, no cropping */
+    background-color: #1a253a; /* Add a background color for the image area if 'contain' creates empty space */
+    padding: 10px; /* Add some padding around the image to prevent cutting */
 }
-.blog-card-content { padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column; }
-.blog-card-content h3 { font-size: 1.4rem; margin-bottom: 0.5rem; }
-.blog-card-content p { color: var(--text-secondary); flex-grow: 1; }
+
+.blog-card-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.blog-card-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+.blog-card-content p {
+    color: var(--text-secondary);
+    flex-grow: 1;
+}
 .blog-card-content a {
     color: var(--primary-color);
     text-decoration: none;
@@ -432,6 +448,19 @@ section {
     align-self: flex-start;
 }
 
+/* --- RESPONSIVE DESIGN for mobile (no changes here, just for context) --- */
+@media (max-width: 768px) {
+    /* ... (your existing mobile styles for other sections) ... */
+    
+    /* Ensure blog cards stack nicely on mobile */
+    .blog-grid {
+        grid-template-columns: 1fr; /* Force single column on small screens */
+    }
+
+    .blog-card img {
+        max-height: 180px; /* Adjust image height for smaller screens if needed */
+    }
+}
 /* --- CONTACT / FOOTER --- */
 .contact { text-align: center; background: var(--background-start); padding: 5rem 0; }
 .contact-message { font-size: 1.4rem; margin-bottom: 2.5rem; color: var(--text-secondary); }
@@ -612,3 +641,4 @@ section {
         padding-top: 100px; /* Add padding to avoid navbar overlap */
     }
 }
+
