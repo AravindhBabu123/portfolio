@@ -5,6 +5,10 @@ This repository hosts my web portfolio showcasing projects, certifications, and 
 
 ---
 
+Website link --> [Portfolio](https://aravindhbabu123.github.io/portfolio)
+
+---
+
 ## Table of Contents
 
 - [About Me](#about-me)  
@@ -82,7 +86,7 @@ This is presented as a slideshow of **three images** to visually depict the tran
 I’m currently open to new opportunities!  
 If you’d like to collaborate or want to learn more, feel free to reach out.
 
-- Email: *[aravindhbabu12@gmail.com]
+- Email: aravindhbabu12@gmail.com
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aravindh-babu-3a6341295)
 - GitHub: [aravindhbabu123](https://github.com/aravindhbabu123)  
 
